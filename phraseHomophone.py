@@ -14,7 +14,7 @@ for line in pcorpus:
 
     # list转字符串
     plist = "".join(plist)
-    py_list = "".join(py_list)
+    py_list = " ".join(py_list)
 
     datalist1.append(plist)
     datalist2.append(py_list)
